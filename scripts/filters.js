@@ -22,9 +22,9 @@ function eventFilter () {
 }
 eventFilter()
 
-
 function filterCard(category) {
     const cardsFiltered = arrayCards.filter(elem => elem.category.includes(category))
         return cardsFiltered
     }
+    
 autoClickCategory()
