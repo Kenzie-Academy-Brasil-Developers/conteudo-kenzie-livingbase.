@@ -1,0 +1,31 @@
+.header_post_container > button {
+    width: 90px;
+    height: 38px;
+    padding: 0px 22px;
+    border-radius: 32px;
+    background-color: var(--color-grey-600);
+    border: none;
+}
+
+.filter_buttons {
+    background-color: var(--color-grey-600);
+    width: 110px;
+    height: 38px;
+    border-radius: 32px;
+    gap: 10px;
+    border: 1px solid var(--color-grey-600);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_top {
+    background-color: var(--color-grey-200);
+    color: var(--color-grey-700);
+    width: 182px;
+    height: 38px;
+    border: 1px solid var(--color-grey-200);
+    border-radius: 32px;
+    padding: 0px 22px 0px 22px; 
+}

@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/cards.css">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/sizing.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
 </head>
-<body>
-    <main></main>
+<body class="body">
+    <main>
+        <header class="header_posts flex align-center justify-center">
+            <div class="header_post_container flex justify-between align-center">
+                <img src="../assets/img/logo.png" alt="">
+                <button id="home">Home</button>
+            </div>
+        </header>
+        <section class="post flex flex-column align-center justify-center">
+        </section>
+        <section><ul id="ulButtonsPost" class="ul_buttons_post flex justify-center align-center gap1">
+            <li class="filter_buttons">Todos</li>
+            <li class="filter_buttons">Aromas</li>
+            <li class="filter_buttons">Decoração</li>
+            <li class="filter_buttons">Limpeza</li>
+            <li class="filter_buttons">Organização</li>
+            <li class="filter_buttons">Pintura</li>
+            <li class="filter_buttons">Reforma</li>
+            <li class="filter_buttons">Segurança</li>
+        </ul></section>
+        <footer class="footer flex justify-center align-center">
+            <div class="footer_container flex align-center">
+                <div class="message_container flex align-center gap2">
+                    <img src="../assets/img/blacklogo.png" alt="">
+                    <div class="message_cont text3">
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button class="back_top">Voltar para o topo</button>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script type="module" src="index.js"></script>
 </body>
 </html>

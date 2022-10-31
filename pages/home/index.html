@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living</title>
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/display.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="../../styles/sizing.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../../styles/cards.css">
+
 </head>
-<body>
-    <main></main>
+<body class="body">
+    <main class="main_container flex flex-column justify-center align-center">
+        <header class="header flex align-center justify-center">
+            <div class="header_container flex align-center justify-between">
+                <div class="header_container_left flex flex-column">
+                    <div class="left flex"><img src="../assets/img/Group 15.png" alt=""></div>
+                <img src="../assets/img/Frame 5.png" alt="">
+                </div>
+
+                <div class="header_container_right flex flex-end">
+                    <img src="../assets/img/ng.png" alt="">
+                </div>
+            </div>
+
+        </header>
+        <section class="container_nav flex">
+            <nav class="nav">
+                <div id="filtersContainer" class="flex justify-center align-center gap1">
+                    <ul id="ulButtons" class="flex justify-center align-center gap1">
+                        <li class="li_filter all">Todos</li>
+                        <li class="li_filter text4">Aromas</li>
+                        <li class="li_filter text4">Decoração</li>
+                        <li class="li_filter text4">Limpeza</li>
+                        <li class="li_filter text4">Organização</li>
+                        <li class="li_filter text4">Pintura</li>
+                        <li class="li_filter text4">Reforma</li>
+                        <li class="li_filter text4">Segurança</li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="section_posts">
+            <div class="posts_container flex flex-wrap">
+                <ul id="ulPosts" class="ul_posts flex flex-wrap align-center gap1 justify-between">
+                    <div class="card_container card">
+                        <div class="card_img"><img class="card_img" src="../assets/img/ng.png" alt=""></div>
+                        <div class="card_title"><h2>Título</h2></div>
+                        <div class="card_description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel reiciendis sed? Praesentium dolore quaerat unde perferendis pariatur cupiditate, quas delectus repellat quisquam quis! Incidunt excepturi vel debitis porro inventore.</p></div>
+                        <div class="card_button"><button>Acessar conteúdo</button></div>
+                    </div>
+
+                    <div class="card_container card">
+                        <div class=""><img class="card_img" src="../assets/img/ng.png" alt=""></div>
+                        <div class="card_title"><h2>Título</h2></div>
+                        <div class="card_description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vel reiciendis sed? Praesentium dolore quaerat unde perferendis pariatur cupiditate, quas delectus repellat quisquam quis! Incidunt excepturi vel debitis porro inventore.</p></div>
+                        <div class="card_button"><button>Acessar conteúdo</button></div>
+                    </div>
+                </ul>
+               
+            </div>
+        </section>
+        <footer class="footer flex justify-center align-center">
+            <div class="footer_container flex align-center">
+                <div class="message_container flex align-center gap2">
+                    <img src="../assets/img/blacklogo.png" alt="">
+                    <div class="message_cont text3">
+                        <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button class="back_top">Voltar para o topo</button>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script type="module" src="../../scripts/cards.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="../../scripts/request.js"></script>
+    <script type="module" src="../../scripts/cards.js"></script>
+    <script type="module" src="../../scripts/filters.js"></script>
+    <script type="module" src="../../scripts/arrayPosts.js"></script>
 </body>
 </html>

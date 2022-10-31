@@ -1,1 +1,125 @@
-/* Desenvolva seu estilo aqui */
+.body {
+    background-color: var(--color-grey-700);
+}
+.header{
+    width: 100vw;
+}
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 300px;
+    margin-top: 50px;
+}
+.header_container_left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+    gap: 2rem;
+}
+.header_container_left > img {
+    width: 80%;
+    height: 100%;
+}
+.left {
+    width: 100%;
+    height: 100%;
+}
+.header_container_right {
+    width: 50%;
+    height: 100%;
+}
+.header_container_right > img{
+    width: 90%;
+    height: 100%;
+}
+.main_container {
+    gap: 2.5rem;
+    width: 100%;
+}
+.li_filter {
+    cursor: pointer;
+    background-color: var(--color-grey-600);
+    border: 1px solid var(--color-grey-600);
+    border-radius: 32px;
+    padding: 3px 22px;
+}
+.all {
+    background-color: var(--color-brand-100);
+    border: 1px solid var(--color-brand-100);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-grey-800);
+}
+.section_posts {
+    width: 80%;
+}
+.posts_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_container {
+    width: 30rem;
+    height: 22.5rem;
+    margin-top: 1rem;
+}
+.card_img {
+    width: 30rem;
+    height: 10.75rem;
+}
+.card_text_container {
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.footer {
+    width: 100vw;
+    height: 200px;
+    background-color: var(--color-grey-100);
+}
+.footer_container {
+    width: 80%;
+}
+.message_container {
+    max-height: 200px;
+    background-color: var(--color-grey-100);
+}
+.message_container > img{
+    width: 83px;
+    height: 37px;
+}
+.message_cont{
+    width: 60%;
+    height: 50%;
+}
+.container_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn_access {
+    color: var(--color-brand-100);
+    border: none;
+    background-color: var(--color-grey-700);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.all {
+    background-color: var(--color-brand-100);
+    border: 1px solid var(--color-brand-100);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-grey-700);
+}
+.card_title {
+    width: 100%;
+}
+#ulButtons {
+    overflow-x: scroll;
+}

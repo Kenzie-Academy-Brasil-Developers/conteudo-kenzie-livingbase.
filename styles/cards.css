@@ -1,0 +1,10 @@
+/* .card {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: 150ms;
+} */
+
+.card.show {
+    transform: translateX(0);
+    opacity: 1;
+}

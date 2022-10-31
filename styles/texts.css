@@ -1,0 +1,30 @@
+.text1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--color-grey-100);
+}
+.text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-grey-200);
+}
+.text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-grey-400);
+}
+.text4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-grey-200);
+}
+.text5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-grey-100);
+}
